@@ -1,23 +1,5 @@
-.contenedor{
-    width: 80%;
-    margin: 0 auto;
-    max-width: max-content;
-    min-width: min-content;
-    overflow: hidden;
-}
-
-.main{
-    width:70%;
-}
-
-.aside{
-    width: 30%;
-    box-sizing: border-box;
-}
-
-
 #autor{
-    color: black;
+    color: white;
     text-align: center;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -33,24 +15,22 @@
 
 #Datos{
     color: black;
-    padding: 19px;
-    padding-left: 25px;
+    padding: 10px;
     margin-right: 82px;
     margin-left: 400px;
     font-weight: 900;
     font-size: large;
     font-stretch: semi-condensed;
     font-family: 'Quicksand', sans-serif; 
-    border: solid black 1px;
 }
 
 #FOTO{
     float: left;
-    margin-left: 50%;
+    margin-left: 82px;
 }
 
 #Hab{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 82px;
     margin-right: 82px;
     font-family: 'Quicksand', sans-serif;
@@ -92,7 +72,6 @@
 }
 
 #Exp{
-    margin-top: 20px;
     margin-left: 82px;
     margin-right: 82px;
     font-family: 'Quicksand', sans-serif;
@@ -119,4 +98,57 @@
     font-family: 'Quicksand', sans-serif;
     margin-bottom: 40px;
     column-count: 2;
+}
+
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+    max-width: max-content;
+    min-width: min-content;
+    overflow: hidden;
+}
+
+.main{
+    width:70%;
+    padding: 10px;
+}
+
+.aside{
+    width: 30%;
+    box-sizing: border-box;
+    column-count: 2;
+}
+
+.body{
+ width: 50%;   
+}
+
+@media screen and (max-width:600px) {
+    #Datos{
+        font-weight: unset;
+        font-size: unset;
+        font-family: 'Quicksand', sans-serif;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-width: solid black 1px;
+        box-sizing: border-box;
+    }
+}
+
+
+#Instagram{
+    margin-left: 100px;
+    background-color: rgb(248, 99, 99);
+    color: white;
+    border: none;
+    float: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#Mail{
+    background-color: rgb(248, 99, 99);
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    border: none;
 }
