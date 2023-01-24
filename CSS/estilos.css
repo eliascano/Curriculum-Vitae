@@ -1,0 +1,122 @@
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+    max-width: max-content;
+    min-width: min-content;
+    overflow: hidden;
+}
+
+.main{
+    width:70%;
+}
+
+.aside{
+    width: 30%;
+    box-sizing: border-box;
+}
+
+
+#autor{
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 82px;
+    margin-right: 82px;
+    border: 2px solid red;
+    background-color: rgb(248, 99, 99);
+    font-weight: 1000;
+    font-size: xx-large;
+    font-stretch: semi-condensed;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#Datos{
+    color: black;
+    padding: 19px;
+    padding-left: 25px;
+    margin-right: 82px;
+    margin-left: 400px;
+    font-weight: 900;
+    font-size: large;
+    font-stretch: semi-condensed;
+    font-family: 'Quicksand', sans-serif; 
+    border: solid black 1px;
+}
+
+#FOTO{
+    float: left;
+    margin-left: 50%;
+}
+
+#Hab{
+    margin-top: 100px;
+    margin-left: 82px;
+    margin-right: 82px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#Hab_{
+    margin-left: 68px;
+    margin-right: 68px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 40px;
+}
+
+#Est{
+    margin-top: 20px;
+    margin-left: 82px;
+    margin-right: 82px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#Est_{
+    margin-left: 68px;
+    margin-right: 68px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 40px;
+}
+
+#FAeI{
+    margin-top: 20px;
+    margin-left: 82px;
+    margin-right: 82px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#FAeI_{
+    margin-left: 68px;
+    margin-right: 68px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 40px;
+}
+
+#Exp{
+    margin-top: 20px;
+    margin-left: 82px;
+    margin-right: 82px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#Exp_{
+    margin-left: 68px;
+    margin-right: 68px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 40px;
+}
+
+#Ref{
+    margin-top: 20px;
+    margin-left: 82px;
+    margin-right: 82px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#Ref_{
+    float: left;
+    margin-left: 68px;
+    margin-right: 68px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 40px;
+    column-count: 2;
+}
